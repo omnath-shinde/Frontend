@@ -1,0 +1,54 @@
+/* universal selector */
+* {
+    font-family: monospace;
+    /* border: 1px solid red; */
+}
+
+/* Element selector */
+html {
+    font-size: 22px; 
+}
+body {
+    font-size: 22px;
+    /* border: 3px solid black; */
+}
+
+main{
+    font-family: monospace;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+h1,
+h2 {
+    color: blue;
+}
+
+p {
+    /* color: purple!important; */
+    color: purple;
+}
+p {
+    color: red;
+}
+
+/* p span{ */
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/* class selector */
+.gray {
+    color: gray;
+}
+
+/* id selector */
+#second {
+    font-style: italic;
+}
